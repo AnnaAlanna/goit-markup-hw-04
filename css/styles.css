@@ -118,6 +118,7 @@ body{
 }
 .auth-nav .contact-link{
     display: flex;
+    align-items: center;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -137,16 +138,6 @@ body{
 .contact-icon{
    margin-right: 10px;
     
-}
-.contact-mail-icon{
-   margin-top: 2px;
-   margin-bottom: 2px;
-    width: 16px;
-    height: 12px;
-}
-.contact-phone-icon{
-    width: 10px;
-    height: 16px;
 }
 
 /* main */
@@ -248,11 +239,6 @@ body{
     border-radius: 4px;
     
 }
-.advantages-icon{
-    width: 70px;
-    height: 70px;
-    
-}
 .advantages-item{
     margin-bottom: 10px;
 
@@ -319,10 +305,8 @@ margin-right: 30px;
     text-align: center;
 }
 .social-list {
-    margin:0px 32px 30px 32px;
+    padding-bottom: 32px;
     display: flex;
-    width: 206px;
-    height: 44px;
     justify-content: center;
     column-gap: 10px;
 }
@@ -344,8 +328,6 @@ margin-right: 30px;
     
 }
 .social-list-icon{    
-    width: 20px;
-    height: 20px;
     fill: var(--social-logo);
 }
 .social-list-link:hover .social-list-icon,
@@ -373,8 +355,6 @@ margin-right: 30px;
     column-gap: 30px;
 }
 .client-icon {
-    width: 106px;
-    height: 60px;
     fill: currentColor;
 }
 .client-link{
